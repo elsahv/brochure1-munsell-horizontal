@@ -1,7 +1,7 @@
-import Hero from "./components/Sections/Hero";
-import Services from "./components/Sections/ServicesInfo";
-import Gallery from "./components/Sections";
-import Contact from "./components/Sections/ContactInfo";
+import Hero from "./components/sections/Hero";
+import Services from "./components/sections/ServicesInfo";
+import Gallery from "./components/sections/GalleryInfo";
+import Contact from "./components/sections/ContactInfo";
 
 export default function Home() {
   return (

@@ -28,11 +28,12 @@ html{
     border-right: solid 2px #35373d;
     padding: 25px;
     height:100vh;
+    /* background: green; */
  }
 
  @media only screen and (max-width: 1024px) {
   .left-sq{
-    height:100vh;
+    height:100%;
  }
  }
 
@@ -47,8 +48,16 @@ html{
  /* //*RIGHT SQ ********/
  .right-sq{
     padding: 25px;
+    height:100vh;
+    /* background: maroon; */
  }
 }
+
+@media only screen and (max-width: 1024px) {
+  .right-sq{
+    height:100%;
+ }
+ }
  
 
  /* //*END RIGHT SQ ********/
