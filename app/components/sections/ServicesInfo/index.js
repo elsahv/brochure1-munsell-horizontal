@@ -14,9 +14,9 @@ const Services = () => {
     >
       <div id="services" className="main_grid">
         {/* //*LEFT SQ */}
-        <section className="left-sq pt-[80px] bg-parchment text-onyx border-onyx border-r-2">
-          <div className="mb-[50px] 2xl:mx-5 2xl:px-5 sm:px-1 sm:mx-1">
-            <h2 className="font-bold text-2xl mb-5">
+        <section className="left-sq pt-[80px] bg-munsell border-onyx border-r-2">
+          <div className="text-aquamarine mb-[50px] 2xl:mx-5 2xl:px-5 sm:px-1 sm:mx-1">
+            <h2 className="text-onyx font-bold text-2xl mb-5">
               So why should you bother with a website? What can a website do for
               your business?
             </h2>
@@ -42,7 +42,7 @@ const Services = () => {
             </p>
 
             <Link
-              className="text-lg bg-munsell py-2 px-3 border border-cerulean rounded-sm"
+              className="text-lg text-munsell bg-parchment py-2 px-3 border border-cerulean rounded-sm hover:bg-cerulean hover:text-parchment"
               href="/gallery"
             >
               View Website Designs/ Quotes

@@ -67,7 +67,7 @@ const Gallery = () => {
         </section>
 
         {/* //todo RIGHT SIDE */}
-        <section className="border-black border-l-2 bg-parchment 2xl:w-1/2 lg:w-full 2xl:absolute right-0 lg:relative overflow-scroll flex flex-col px-2 pt-2 pb-[150px]">
+        <section className="border-black border-l-2 bg-munsell 2xl:w-1/2 lg:w-full 2xl:absolute right-0 lg:relative overflow-scroll flex flex-col px-2 pt-2 pb-[150px]">
           <div className="text-onyx mb-5 w-full drop-shadow-lg pl-3 pb-3">
             <h2 className="font-bold text-2xl pt-[50px]">Gallery</h2>
             <p className="my-3 text-lg">
