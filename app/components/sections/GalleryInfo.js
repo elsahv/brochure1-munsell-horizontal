@@ -11,7 +11,7 @@ const Gallery = () => {
       {/* //todo LEFT SIDE */}
 
       <section className="h-full bg-munsell 2xl:w-1/2 lg:w-full 2xl:fixed 2xl:left-0 lg:relative">
-        <div className="2xl:w-3/4 lg:w-full mt-5 2xl:ml-[70px] lg:ml-1  px-5 pb-3 text-aquamarine">
+        <div className="2xl:w-3/4 lg:w-full mt-5 2xl:ml-[70px] lg:ml-1 px-5 pb-3 text-aquamarine">
           <h2 className="_textShadow text-center font-bold text-3xl pt-[70px] p-1">
             Monthly Packages
           </h2>
@@ -43,7 +43,7 @@ const Gallery = () => {
             </ul>
           </div>
           {/*//* 3 */}
-          <div className="text-center pt-5">
+          <div className="text-center pt-5 text-lg">
             Need something else for you website?{" "}
             <span className="underline px-2 font-bold">
               <Link href="/contact">Contact</Link>
@@ -51,7 +51,7 @@ const Gallery = () => {
             for a custom quote!
           </div>
         </div>
-        <div className="pt-1 text-aquamarine text-center pr-[50px]">
+        <div className="pt-1 text-aquamarine text-center pr-[50px] text-lg pb-5">
           * Startup Sale! Take advantage of these prices while you can!
         </div>
       </section>
