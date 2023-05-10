@@ -25,7 +25,7 @@ const Contact = () => {
       </section>
 
       {/* //*RIGHT SIDE */}
-      <section className="h-[100vh] p-5 right-sq mt-[50px] 2xl:mx-5 lg:mx-1">
+      <section className="p-5 right-sq mt-[50px] 2xl:mx-5 lg:mx-1">
         <h2 className="font-bold text-3xl">Contact Form</h2>
         <ContactForm />
       </section>

@@ -7,15 +7,15 @@ const Hero = () => {
     <div className="main_grid">
       {/* //*LEFT SIDE */}
       <section className="left-sq">
-        <div className="2xl:w-full md:w-3/4 pt-5">
+        <div className="2xl:w-full md:w-3/4 sm:w-1/2 pt-5">
           <Image src={Coyote} alt="laughing coyote logo" className="mt-5 p-5" />
         </div>
       </section>
 
       {/* //*RIGHT SIDE */}
       <section className="right-sq border-onyx border-l-2">
-        <div className=" m-5 p-5 2xl:mt-[150px] lg:mt-5">
-          <div className="_textShadow text-cerulean font-bold text-5xl">
+        <div className=" 2xl:m-5 p-5 sm:m-0 2xl:mt-[150px] lg:mt-5">
+          <div className="_textShadow text-cerulean font-bold text-4xl">
             A
             <Link className="underline px-3" href="/services">
               web design

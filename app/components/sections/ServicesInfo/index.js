@@ -6,7 +6,7 @@ const Services = () => {
   return (
     <div id="services" className="main_grid">
       {/* //*LEFT SQ */}
-      <section className="left-sq pt-[80px] bg-parchment text-onyx h-[780px] border-onyx border-r-2">
+      <section className="left-sq pt-[80px] bg-parchment text-onyx border-onyx border-r-2">
         <div className="mb-[50px] 2xl:mx-5 2xl:px-5 sm:px-1 sm:mx-1">
           <h2 className="font-bold text-2xl">
             So why should you bother with a website when social media is
