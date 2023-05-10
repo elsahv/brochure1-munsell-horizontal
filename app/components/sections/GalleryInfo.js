@@ -7,11 +7,11 @@ import Link from "next/link";
 
 const Gallery = () => {
   return (
-    <div className="bg-munsell pb-[100px]">
+    <div className="bg-munsell pb-[100px] text-center">
       {/* //todo LEFT SIDE */}
 
       <section className="h-full bg-munsell 2xl:w-1/2 lg:w-full 2xl:fixed 2xl:left-0 lg:relative">
-        <div className="w-3/4 mt-5 ml-[70px] px-5 pb-3 text-aquamarine">
+        <div className="2xl:w-3/4 lg:w-full mt-5 2xl:ml-[70px] lg:ml-1  px-5 pb-3 text-aquamarine">
           <h2 className="_textShadow text-center font-bold text-3xl pt-[70px] p-1">
             Monthly Packages
           </h2>
