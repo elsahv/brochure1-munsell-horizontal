@@ -4,9 +4,12 @@ import Link from "next/link";
 
 const Services = () => {
   return (
-    <div id="services" className="main_grid">
+    <div
+      id="services"
+      className="flex 2xl:flex-row lg:flex-col md:flex-col sm:flex-col"
+    >
       {/* //*LEFT SQ */}
-      <section className="left-sq pt-[80px] bg-parchment text-onyx ">
+      <section className="2xl:w-1/2 lg:w-full md:w-full sm:w-full pt-[80px] bg-parchment text-onyx ">
         <div className="mb-[50px] 2xl:mx-5 2xl:px-5 sm:px-1 sm:mx-1">
           <h2 className="font-bold text-2xl">
             So why should you bother with a website when social media is
@@ -26,7 +29,7 @@ const Services = () => {
       </section>
 
       {/* //*RIGHT SQ */}
-      <section className="right-sq">
+      <section className="2xl:w-1/2 lg:w-full md:w-full sm:w-full">
         <div className="py-5b ">
           <h2 className="font-bold text-lg text-center underline ">
             Services Offered:
