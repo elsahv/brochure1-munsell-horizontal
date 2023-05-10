@@ -5,7 +5,7 @@ import Link from "next/link";
 const Header = () => {
   return (
     // <>
-    <header className="fixed top-0 z-50 w-full flex justify-center border-b-2 border-onyx bg-white">
+    <header className="fixed top-0 z-50  w-full flex justify-center border-b-2 border-onyx bg-white">
       <nav className="2xl:p-5 md:p-3 sm:shrink-0 pb-5">
         <ul className="2xl:flex lg:shrink-0">
           <Link href="/" className="mx-2 text-lg">
@@ -31,7 +31,7 @@ const Header = () => {
           </Link> */}
           <Link
             href="/contact"
-            className="ml-5 pt-0.5 px-3 drop-shadow-lg border border-black bg-munsell hover:bg-aquamarine hover:text-munsell"
+            className="ml-5 pt-0.5 px-3 drop-shadow-lg border border-black bg-munsell hover:text-aquamarine"
           >
             Contact
           </Link>

@@ -26,7 +26,7 @@ const Contact = () => {
 
       {/* //*RIGHT SIDE */}
       <section className="p-5 right-sq mt-[50px] 2xl:mx-5 lg:mx-1">
-        <h2 className="font-bold text-3xl">Contact Form</h2>
+        <h2 className="font-bold text-3xl text-aquamarine">Contact Form</h2>
         <ContactForm />
       </section>
     </div>
