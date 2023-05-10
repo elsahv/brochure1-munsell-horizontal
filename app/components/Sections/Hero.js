@@ -15,7 +15,7 @@ const Hero = () => {
       {/* //*RIGHT SIDE */}
       <section className="2xl:w-1/2 lg:w-full sm:w-full border-onyx border-l-2">
         <div className=" m-5 p-5 2xl:mt-[150px] lg:mt-5">
-          <div className="_textShadow text-cerulean font-bold text-4xl">
+          <div className="_textShadow text-cerulean font-bold text-5xl">
             A
             <Link className="underline px-3" href="/services">
               web design

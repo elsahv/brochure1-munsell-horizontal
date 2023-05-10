@@ -49,18 +49,7 @@ html{
     padding: 25px;
  }
 }
-
-@media only screen and (max-width: 1024px) {
-  .right-sq{
-    /* height:100vh; */
- }
- }
-
-  @media only screen and (max-width: 600px) {
-  .right-sq{
- padding: 10px;
- }
- }
+ 
 
  /* //*END RIGHT SQ ********/
  
@@ -105,21 +94,11 @@ html{
    border-radius: 5px;
    padding: 5px 1px 5px 5px;
  }
-     @media only screen and (max-width: 599px) {
-    .form-input {
-     /* width: 300px; */
-     }
-   }
-      @media only screen and (max-width: 399px) {
-    .form-input {
-     /* width: 250px; */
-     }
-   }
  
  
  
  ._textShadow{
-  text-shadow: 1px 1px 1px #35373d;
+  text-shadow: 1px 1px 1px #007ba5;
  }
  
  #message {
