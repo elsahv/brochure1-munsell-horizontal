@@ -13,42 +13,42 @@ const GalleryContent = [
     title: "A virtual home for your business",
     image: OnlineShop,
     paragraph1:
-      "while social media is great, you do not fully own your own content. These can disappear",
+      "While social media is great, you do not fully own your own content. When owning a website, you have total control.",
   },
   {
     id: 2,
     title: "SEO",
     image: Seo,
     paragraph1:
-      "seo explanation-Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam velit quaerat necessitatibus, illo facere reiciendis?",
+      "I use technologies such as nextjs to help your business rank on Google.",
   },
   {
     id: 3,
     title: "Mobile Optimization",
     image: MobilePhone,
     paragraph1:
-      "A website provides a platform for small businesses to showcase their products or services to a wider audience.",
+      "Statistics show that most people browse websites on their phone or tablets. Each website is designed with this in mind, using beautiful UI/UX practices.",
   },
   {
     id: 4,
     title: "Website Scales as your business grows",
     image: ScaleUp,
     paragraph1:
-      "A website provides a platform for small businesses to showcase their products or services to a wider audience.",
+      "As you gain more customers and online presence, you have the option of scaling your website.",
   },
   {
     id: 5,
     title: "Continuous Support- monthly services ",
     image: Calendar,
     paragraph1:
-      "A website provides a platform for small businesses to showcase their products or services to a wider audience.",
+      "Laughing Coyote Dev provides a monthly service and continous support, creating a non-stressful experience",
   },
   {
     id: 6,
     title: "Quick loading performance",
     image: Speed,
     paragraph1:
-      "I use latest technologies- Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam velit quaerat necessitatibus, illo facere reiciendis?",
+      "Sites are quick due to using NextJS, Vite, and other technologies which allows quick loading times.",
   },
 ];
 

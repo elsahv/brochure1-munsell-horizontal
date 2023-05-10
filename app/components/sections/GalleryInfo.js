@@ -11,17 +11,48 @@ const Gallery = () => {
       {/* //todo LEFT SIDE */}
 
       <section className="h-full bg-munsell 2xl:w-1/2 lg:w-full 2xl:fixed 2xl:left-0 lg:relative">
-        <div className="w-full mt-5 ml-5 px-5 pb-3 text-aquamarine">
-          <h2 className="font-bold text-2xl pt-[70px] underline">
-            Made it this far?
+        <div className="w-3/4 mt-5 ml-[70px] px-5 pb-3 text-aquamarine">
+          <h2 className="_textShadow text-center font-bold text-3xl pt-[70px] p-1">
+            Monthly Packages
           </h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut fuga
-            rerum deleniti. Dolore sequi numquam distinctio est perferendis
-            quasi sunt minima, illum quis suscipit eum nam excepturi ducimus
-            culpa sit.
-          </p>
-          <Link href="/contact">Contact Cta</Link>
+          {/*//* 1 */}
+          <div className="pl-5 py-5 mx-5 my-3 drop-shadow-md border border-onyx bg-cerulean">
+            <h3 className="_textShadow text-2xl font-bold ">Brochure Site:</h3>
+            <ul>
+              <li>* initial build: $99</li>
+              <li>Each site comes with:</li>
+              <li>a call to action section</li>
+              <li>an about section</li>
+              <li>and a contact section</li>
+            </ul>
+          </div>
+          {/*//* 2 */}
+          <div className="mt-5 pl-5 py-5 mx-5 my-3 drop-shadow-md border border-onyx bg-cerulean">
+            <h3 className="_textShadow text-2xl font-bold ">
+              Brochure Site w/ Monthly Services
+            </h3>
+            <ul>
+              <li>* initial build: $99</li>
+              <li>Each site comes with:</li>
+              <li>a call to action section</li>
+              <li>an about section</li>
+              <li>and a contact section</li>
+              <li>hosting</li>
+              <li>domain set up</li>
+              <li>* updates and maintenance: per mth-$20, per year- $240</li>
+            </ul>
+          </div>
+          {/*//* 3 */}
+          <div className="text-center pt-5">
+            Need something else for you website?{" "}
+            <span className="underline px-2 font-bold">
+              <Link href="/contact">Contact</Link>
+            </span>
+            for a custom quote!
+          </div>
+        </div>
+        <div className="pt-1 text-aquamarine text-center pr-[50px]">
+          * Startup Sale! Take advantage of these prices while you can!
         </div>
       </section>
 
