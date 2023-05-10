@@ -19,12 +19,12 @@ const Gallery = () => {
         {/* //todo LEFT SIDE */}
 
         <section className="h-full bg-munsell 2xl:w-1/2 lg:w-full 2xl:fixed 2xl:left-0 lg:relative">
-          <div className="2xl:w-3/4 lg:w-full mt-5 2xl:ml-[70px] lg:ml-1 px-5 pb-3 text-aquamarine">
-            <h2 className="_textShadow text-center font-bold text-3xl pt-[70px] py-1">
+          <div className="2xl:w-3/4 lg:w-full mt-5 2xl:ml-[70px] lg:ml-1 px-5 pb-3">
+            <h2 className="_textShadow text-onyx text-center font-bold text-3xl pt-[70px] py-1">
               Monthly Packages
             </h2>
             {/*//* 1 */}
-            <div className="pl-5 py-5 mx-5 my-3 drop-shadow-md border border-onyx bg-cerulean">
+            <div className=" text-aquamarine pl-5 py-5 mx-5 my-3 drop-shadow-md border border-onyx bg-cerulean">
               <h3 className="_textShadow text-2xl font-bold ">
                 Brochure Site:
               </h3>
@@ -37,7 +37,7 @@ const Gallery = () => {
               </ul>
             </div>
             {/*//* 2 */}
-            <div className="mt-5 pl-5 py-5 mx-5 my-3 drop-shadow-md border border-onyx bg-cerulean">
+            <div className=" text-aquamarine mt-5 pl-5 py-5 mx-5 my-3 drop-shadow-md border border-onyx bg-cerulean">
               <h3 className="_textShadow text-2xl font-bold ">
                 Brochure Site w/ Monthly Services
               </h3>
@@ -61,7 +61,7 @@ const Gallery = () => {
               for a custom quote!
             </div>
           </div>
-          <div className="pt-1 text-aquamarine text-center pr-[50px] text-lg pb-5">
+          <div className="pt-1 text-onyx text-center pr-[50px] text-lg pb-5">
             * Startup Sale! Take advantage of these prices while you can!
           </div>
         </section>
