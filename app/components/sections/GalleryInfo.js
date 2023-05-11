@@ -68,16 +68,18 @@ const Gallery = () => {
 
         {/* //todo RIGHT SIDE */}
         <section className="border-black border-l-2 bg-munsell 2xl:w-1/2 lg:w-full 2xl:absolute right-0 lg:relative overflow-scroll flex flex-col px-2 pt-2 pb-[150px]">
-          <div className="text-onyx mb-5 w-full drop-shadow-lg pl-3 pb-3">
-            <h2 className="font-bold text-2xl pt-[50px]">Gallery</h2>
-            <p className="my-3 text-lg">
+          <div className=" mb-5 w-full drop-shadow-lg pl-3 pb-3">
+            <h2 className="_textShadow text-aquamarine font-bold text-2xl pt-[50px]">
+              Gallery
+            </h2>
+            <p className="_textShadow my-3 text-lg text-aquamarine">
               All small businesses should have a website. While social media is
               useful, it is important for small businesses to have its own home.
               Scroll down to see various designs for...
             </p>
           </div>
           {/* //*1 */}
-          <div className=" mb-5 mx-5 drop-shadow-lg rounded-sm">
+          <div className=" mb-5 mx-5 drop-shadow-lg rounded-sm text-left">
             <h2 className="py-3 text-xl text-onyx font-bold pl-1  ">
               ...Content Creators
             </h2>
@@ -86,12 +88,14 @@ const Gallery = () => {
 
           {/* //*2 */}
           <div className="mx-5 my-5 text-onyx drop-shadow-lg rounded-sm">
-            <h2 className="py-2 text-xl font-bold pl-1">...Small Businesses</h2>
+            <h2 className="py-2 text-xl font-bold pl-1 text-left">
+              ...Small Businesses
+            </h2>
             <Image src={Roof} alt="" className="b-5 border border-black" />
           </div>
 
           {/* //*3 */}
-          <div className="mx-5 my-5 drop-shadow-lg rounded-sm">
+          <div className="mx-5 my-5 drop-shadow-lg rounded-sm text-left">
             <h2 className="py-3 text-xl text-onyx font-bold pl-1 pb-1">
               ...Artists
             </h2>
@@ -99,7 +103,7 @@ const Gallery = () => {
           </div>
 
           {/* //*4 */}
-          <div className="mx-5 my-5 drop-shadow-lg rounded-sm">
+          <div className="mx-5 my-5 drop-shadow-lg rounded-sm text-left">
             <h2 className="py-5 text-xl text-onyx font-bold pl-1 pb-1">
               ...and much more!
             </h2>

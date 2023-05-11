@@ -14,7 +14,7 @@ const Header = () => {
               Laughing Coyote
             </h1>
           </Link>
-          <Link href="/services" className="mx-2 pt-1">
+          <Link href="/services" className="mx-2 pt-1 hover:text-cerulean">
             Services
           </Link>
 
@@ -22,13 +22,13 @@ const Header = () => {
           {/* <Link href="/work" className="mx-2">
             Work Process
           </Link> */}
-          <Link href="/gallery" className="mx-2 pt-1">
+          <Link href="/gallery" className="mx-2 pt-1 hover:text-cerulean">
             Gallery
           </Link>
 
           {/* //todo MAKE VISIBLE WHEN READY... */}
-          {/* <Link href="/creative-projects" className="mx-2">
-            Creative Projects
+          {/* <Link href="/creative-posts" className="mx-2">
+            Creative posts
           </Link> */}
           <Link
             href="/contact"

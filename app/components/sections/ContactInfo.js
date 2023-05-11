@@ -11,12 +11,12 @@ const Contact = () => {
       animate={{ opacity: 1 }}
       transition={{ delay: 0.1, duration: 0.5 }}
     >
-      <div className="main_grid">
+      <div className="main_grid _textShadow">
         {/* //*LEFT SIDE */}
         <section className="left-sq pt-[50px] text-aquamarine border-r-2 border-black">
           <div className="2xl:p-5 lg:p-1 ml-5">
-            <h2 className="text-2xl py-1 underline">Info</h2>
-            <p className="text-lg">
+            <h2 className="text-3xl py-1 underline">Info</h2>
+            <p className="text-2xl">
               Has my portfolio piqued your interest....? If so, you can contact
               me at
               <a
@@ -25,9 +25,8 @@ const Contact = () => {
               >
                 devdesignsbyelsa@gmail.com
               </a>
-              , or simply fill out the form on the right
-              <br />
-              Looking forward to hearing from you!
+              , or simply fill out the form on the right. Looking forward to
+              hearing from you!
             </p>
           </div>
         </section>

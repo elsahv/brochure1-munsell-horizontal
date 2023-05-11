@@ -12,11 +12,11 @@ const Services = () => {
       animate={{ opacity: 1 }}
       transition={{ delay: 0.1, duration: 0.5 }}
     >
-      <div id="services" className="main_grid">
+      <div id="services" className="main_grid _textShadow text-onyx">
         {/* //*LEFT SQ */}
         <section className="left-sq pt-[80px] bg-munsell border-onyx border-r-2">
-          <div className="text-onyx mb-[50px] 2xl:mx-5 2xl:px-5 sm:px-1 sm:mx-1">
-            <h2 className="text-onyx font-bold text-2xl mb-5">
+          <div className=" mb-[50px] 2xl:mx-5 2xl:px-5 sm:px-1 sm:mx-1">
+            <h2 className="text-black font-bold text-2xl mb-5">
               So why should you bother with a website? What can a website do for
               your business?
             </h2>
@@ -59,7 +59,7 @@ const Services = () => {
             <div className="grid 2xl:grid-cols-3 gap-2 md:grid-cols-2 sm:grid-cols-1 px-5 mt-5 ">
               {content.map((item, index) => (
                 <div key={index} className="rounded-lg bg-onyx">
-                  <h3 className="text-center font-bold text-parchment pt-3">
+                  <h3 className="text-lg text-center font-bold text-parchment pt-3">
                     {item.title}
                   </h3>
                   <div className="flex justify-center py-2">
@@ -70,7 +70,7 @@ const Services = () => {
                       className="rounded-2xl w-16 p-3 bg-parchment border border-onyx"
                     />
                   </div>
-                  <p className=" mt-5 px-2 pt-1 pb-3 text-md text-center text-aquamarine">
+                  <p className="text-md mt-5 px-2 pt-1 pb-3 text-md text-center text-aquamarine">
                     {item.paragraph1}
                   </p>
                 </div>
