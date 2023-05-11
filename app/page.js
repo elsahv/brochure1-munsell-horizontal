@@ -7,6 +7,7 @@ export default function Home() {
   return (
     <div className="bg-munsell">
       <Hero />
+      {/* //todo: PUT TOOLS ICONS BELOW*/}
       <div className="2xl:hidden lg:relative">
         <Services />
         <Gallery />
