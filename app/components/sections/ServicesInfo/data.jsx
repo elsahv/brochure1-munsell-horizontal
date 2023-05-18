@@ -17,7 +17,7 @@ const GalleryContent = [
   },
   {
     id: 2,
-    title: "SEO",
+    title: "Search Engine Optimization",
     image: Seo,
     paragraph1:
       "I use technologies such as nextjs to help your business rank on Google.",

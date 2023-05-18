@@ -27,7 +27,7 @@ html{
  .left-sq{
     border-right: solid 2px #35373d;
     padding: 25px;
-    height:100vh;
+    /* height:100vh; */
     /* background: green; */
  }
 
@@ -48,7 +48,7 @@ html{
  /* //*RIGHT SQ ********/
  .right-sq{
     padding: 25px;
-    height:100vh;
+    /* height:100vh; */
     /* background: maroon; */
  }
 }

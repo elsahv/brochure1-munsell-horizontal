@@ -10,20 +10,20 @@ const Hero = () => {
       animate={{ opacity: 1 }}
       transition={{ delay: 0.1, duration: 0.5 }}
     >
-      <div className="main_grid">
+      <div className="main_grid ">
         {/* //*LEFT SIDE */}
         <section className="left-sq">
-          <div className="2xl:w-full md:w-3/4 sm:w-1/2 pt-5">
+          <div className="pb-5 2xl:w-3/4 md:w-3/4 sm:w-1/2 mb-[50px]">
             <Image
               src={Coyote}
               alt="laughing coyote logo"
-              className="mt-5 p-5"
+              className="pt-[50px]"
             />
           </div>
         </section>
 
         {/* //*RIGHT SIDE */}
-        <section className="right-sq border-onyx border-l-2">
+        <section className="right-sq border-onyx border-l-1">
           <div className=" 2xl:m-5 p-5 sm:m-0 2xl:mt-[150px] lg:mt-5">
             <div className="_textShadow text-onyx font-bold text-4xl">
               A
