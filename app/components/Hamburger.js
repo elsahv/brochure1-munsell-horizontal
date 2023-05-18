@@ -6,7 +6,7 @@ const Hamburger = () => {
   const [sidebar, setSidebar] = useState(false);
   const showSidebar = () => setSidebar(!sidebar);
   return (
-    <div className="bg-parchment">
+    <div className="h-1/2 pt-5 pl-3">
       <div className="text-2xl p-5 text-munsell">
         <GiHamburgerMenu onClick={showSidebar} />
       </div>
@@ -18,7 +18,11 @@ const Hamburger = () => {
             </div>
             <ul className="p-5 text-2xl ">
               <li>
-                <a href="/#services">Service</a>s
+                <a href="/#services">Services</a>
+              </li>
+
+              <li>
+                <a href="/#packages">Packages</a>
               </li>
 
               <li>

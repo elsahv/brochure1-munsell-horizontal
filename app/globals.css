@@ -15,7 +15,7 @@ html{
     background: #0792a5;
  }
 
- @media only screen and (max-width: 834px) {
+ @media only screen and (max-width: 1024px) {
   .main_grid{
     display:grid;
     grid-template-columns: 1fr;
@@ -84,7 +84,7 @@ html{
   left: 0;
   transition: 1s;
   position: absolute;
-  z-index: 20;
+  z-index: 100;
 }
 
 /* //*end HEADER */

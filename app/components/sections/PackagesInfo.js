@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const PackagesInfo = () => {
   return (
-    <section className="bg-munsell px-5 pb-3">
+    <section id="packages" className="bg-munsell px-5 pb-3">
       <h2 className="underline text-center font-bold text-3xl py-5">
         Monthly Packages
       </h2>

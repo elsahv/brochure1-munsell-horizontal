@@ -11,7 +11,7 @@ const Contact = () => {
       animate={{ opacity: 1 }}
       transition={{ delay: 0.1, duration: 0.5 }}
     >
-      <div className="main_grid h-[750px]">
+      <div id="contact" className="main_grid h-[750px]">
         {/* //*LEFT SIDE */}
         <section className="left-sq pt-[50px] border-r-2 border-black">
           <div className="2xl:p-5 lg:p-1 ml-5 text-onyx">
