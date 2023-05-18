@@ -2,14 +2,14 @@ import Link from "next/link";
 
 const PackagesInfo = () => {
   return (
-    <section className="bg-munsell h-[780px] px-5 pb-3">
+    <section className="bg-munsell px-5 pb-3">
       <h2 className="underline text-center font-bold text-3xl py-5">
         Monthly Packages
       </h2>
-      <div className="grid grid-cols-2 px-[150px] my-5 text-onyx">
+      <div className="grid 2xl:grid-cols-2 md:grid-cols-1 md:px-[150px] sm:px-1 my-5 text-onyx">
         {/*//* 1 */}
-        <div className="bg-parchment text-right px-5 mt-5 pr-5 py-5 border border-black rounded-lg">
-          <h3 className="text-4xl pb-5 font-bold drop-shadow-md">
+        <div className="bg-parchment 2xl:text-right px-5 mt-5 pr-5 py-5 border border-black rounded-lg">
+          <h3 className="md:text-4xl sm:text-3xl pb-5 font-bold drop-shadow-md">
             Brochure Site:
           </h3>
           <ul className="text-xl">
@@ -21,8 +21,8 @@ const PackagesInfo = () => {
           </ul>
         </div>
         {/*//* 2 */}
-        <div className="bg-parchment text-left mt-5 pl-5 py-5 mx-5 my-3 border border-black rounded-lg">
-          <h3 className="text-4xl pb-5 font-bold drop-shadow-md">
+        <div className="bg-parchment text-left mt-5 pl-5 pt-5 pb-[200px] mx-5 my-3 border border-black rounded-lg">
+          <h3 className="md:text-4xl sm:text-3xl pb-5 font-bold drop-shadow-md">
             Brochure Site w/ Monthly Services
           </h3>
           <ul className="text-xl">

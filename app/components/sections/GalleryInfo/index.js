@@ -32,10 +32,10 @@ const Gallery = () => {
               </div>
             </div>
           </div>
-          <section className="grid grid-cols-2 gap-5">
+          <section className="grid 2xl:grid-cols-2 sm:grid-cols-1 gap-5">
             <>
               {content.map((item, index) => (
-                <div className="" key={index}>
+                <div className="px-5" key={index}>
                   <h2 className="text-2xl">{item.title}</h2>
                   <Image
                     src={item.image}
