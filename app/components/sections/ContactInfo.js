@@ -3,6 +3,7 @@
 import React from "react";
 import ContactForm from "../ContactForm";
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 const Contact = () => {
   return (
@@ -13,9 +14,15 @@ const Contact = () => {
     >
       <div id="contact" className="main_grid h-[750px]">
         {/* //*LEFT SIDE */}
+
         <section className="left-sq pt-[50px] border-r-2 border-black">
           <div className="2xl:p-5 lg:p-1 ml-5 text-onyx">
+            {/* //todo make visible when site is ready */}
+            <Link href="https://theindoorjungleproject.com">cta</Link>
             {/* <h2 className="text-3xl py-1 underline">Info</h2> */}
+            {/* //todo about me content */}
+
+            {/* //todo move to left side */}
             <p className="md:text-2xl sm:text-lg">
               Has my portfolio piqued your interest....? If so, you can contact
               me at
