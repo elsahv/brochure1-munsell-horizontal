@@ -13,6 +13,7 @@ html{
     display:grid;
     grid-template-columns: 1fr 1fr;
     background: #0792a5;
+    height:770px;
  }
 
  @media only screen and (max-width: 1024px) {

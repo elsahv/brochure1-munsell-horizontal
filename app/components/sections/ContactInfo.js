@@ -12,13 +12,13 @@ const Contact = () => {
       animate={{ opacity: 1 }}
       transition={{ delay: 0.1, duration: 0.5 }}
     >
-      <div id="contact" className="main_grid h-[750px]">
+      <div id="contact" className="main_grid">
         {/* //*LEFT SIDE */}
 
         <section className="left-sq pt-[50px] border-r-2 border-black">
           <div className="2xl:p-5 lg:p-1 ml-5 text-onyx">
             {/* //todo make visible when site is ready */}
-            <Link href="https://theindoorjungleproject.com">cta</Link>
+            {/* <Link href="https://theindoorjungleproject.com">cta</Link> */}
             {/* <h2 className="text-3xl py-1 underline">Info</h2> */}
             {/* //todo about me content */}
 
@@ -39,7 +39,7 @@ const Contact = () => {
         </section>
 
         {/* //*RIGHT SIDE */}
-        <section className="p-5 right-sq mt-[50px] 2xl:mx-5 lg:mx-1 sm:border-black border-t-2">
+        <section className="p-5 right-sq mt-[50px] 2xl:mx-5 lg:mx-1">
           <h2 className="font-bold text-3xl text-onyx">Contact Form</h2>
           <ContactForm />
         </section>
