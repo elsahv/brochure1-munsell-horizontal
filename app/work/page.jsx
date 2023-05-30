@@ -2,10 +2,11 @@ const Work = () => {
   return (
     <div className="main_grid">
       {/* //todo left side */}
-      <section className="left-sq bg-parchment">
+      <section className="left-sq">
         {/* //*step 1 */}
         <div className="mt-5 px-5">
           <h2 className="text-3xl font-bold">Work Process</h2>
+          <p>how it works!</p>
           <h3 className="font-bold mt-5">Initial Consulation---</h3>
 
           <p>

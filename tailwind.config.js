@@ -17,6 +17,8 @@ module.exports = {
         aquamarine: "#7FFFD4",
         parchment: "#f0ead2",
         onyx: "#35373d",
+        test1: "pink",
+        test2: "lightgreen",
       },
     },
   },
