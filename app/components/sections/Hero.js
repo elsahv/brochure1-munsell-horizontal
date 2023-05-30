@@ -17,7 +17,7 @@ const Hero = () => {
             <Image
               src={Coyote}
               alt="laughing coyote logo"
-              className="2xl:pt-1 pt-[140px]"
+              className="2xl:pt-5 pt-[180px]"
             />
           </div>
         </section>
