@@ -43,7 +43,7 @@ const Services = () => {
             </div>
             <Link
               className="text-lg bg-parchment py-2 px-3 border border-onyx rounded-md hover:bg-onyx hover:text-parchment"
-              href="/gallery"
+              href="/creative-projects"
             >
               View Website Designs
             </Link>
