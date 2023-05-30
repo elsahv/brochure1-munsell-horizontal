@@ -25,8 +25,8 @@ const Contact = () => {
             {/* //todo END */}
 
             <p className="md:text-2xl sm:text-lg">
-              Has my portfolio piqued your interest....? If so, you can contact
-              me at
+              Has my portfolio piqued your interest? If so, you can contact me
+              at
               <a
                 className="underline pl-2"
                 href="mailto:devdesignsbyelsa@gmail.com"
