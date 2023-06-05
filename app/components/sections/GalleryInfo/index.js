@@ -14,7 +14,7 @@ const Gallery = () => {
     >
       <div id="gallery" className="bg-munsell pb-[100px]">
         <section className="border-black border-l-2 bg-munsell flex flex-col px-2 pt-2 pb-[150px]">
-          <div className=" mb-5 w-full drop-shadow-lg pl-5 pb-3">
+          <div className="bg-cerulean mb-5 w-full drop-shadow-lg pl-5 pb-3">
             <h2 className="_textShadow font-bold text-2xl pt-[50px]">
               Website Case Studies
             </h2>

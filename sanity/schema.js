@@ -1,8 +1,8 @@
 // import blockContent from './schemas/blockContent'
 // import category from './schemas/category'
-// import post from './schemas/post'
+import websites from "./schemas/websites";
 // import author from './schemas/author'
 
 export const schema = {
-  types: [],
+  types: [websites],
 };
