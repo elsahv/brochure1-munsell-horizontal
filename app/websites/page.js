@@ -1,10 +1,10 @@
 import React from "react";
-import PackagesInfo from "../components/sections/PackagesInfo";
+import GalleryInfo from "../components/sections/GalleryInfo";
 
 const packages = () => {
   return (
     <>
-      <PackagesInfo />
+      <GalleryInfo />
     </>
   );
 };

@@ -17,6 +17,13 @@ const Header = () => {
                   Laughing Coyote
                 </h1>
               </Link>
+
+              <Link
+                href="/about"
+                className="hidden 2xl:block mx-3 pt-1 hover:text-cerulean"
+              >
+                About
+              </Link>
               <Link
                 href="/services"
                 className="hidden 2xl:block mx-3 pt-1 hover:text-cerulean"
@@ -24,26 +31,19 @@ const Header = () => {
                 Services
               </Link>
 
-              {/* //todo MAKE VISIBLE WHEN READY */}
-              {/* <Link
-                href="/work"
-                className="hidden 2xl:block mx-3 pt-1 hover:text-cerulean"
-              >
-                Work Process
-              </Link> */}
               <Link
-                href="/packages"
+                href="/websites"
                 className="hidden 2xl:block mx-3 pt-1 hover:text-cerulean"
               >
-                Packages
+                Websites
               </Link>
 
-              <Link
-                href="/creative-projects"
+              {/* <Link
+                href="/gallery"
                 className="hidden 2xl:block mx-3 pt-1 hover:text-cerulean"
               >
                 Creative Projects
-              </Link>
+              </Link> */}
               {/* //todo SUBMENU: 1.TEMPLATES, 2.WEBSITE GALLERY, 3.BLOG */}
 
               <Link

@@ -2,9 +2,7 @@
 
 import Image from "next/image";
 import { AiOutlineArrowDown } from "react-icons/ai";
-
 import content from "./data";
-
 import { motion } from "framer-motion";
 
 const Gallery = () => {
@@ -18,7 +16,7 @@ const Gallery = () => {
         <section className="border-black border-l-2 bg-munsell flex flex-col px-2 pt-2 pb-[150px]">
           <div className=" mb-5 w-full drop-shadow-lg pl-5 pb-3">
             <h2 className="_textShadow font-bold text-2xl pt-[50px]">
-              Creative Projects
+              Website Case Studies
             </h2>
             <div className="my-3 text-lg">
               <p>
@@ -32,16 +30,22 @@ const Gallery = () => {
               </div>
             </div>
           </div>
+          {/* //todo SANITY IMPLEMENT */}
           <section className="grid 2xl:grid-cols-2 sm:grid-cols-1 gap-5">
             <>
               {content.map((item, index) => (
                 <div className="px-5" key={index}>
-                  <h2 className="text-2xl">{item.title}</h2>
+                  <h2 className="text-2xl text-parchment drop-shadow-lg p-2">
+                    {item.title}
+                  </h2>
                   <Image
                     src={item.image}
                     alt=""
                     className="drop-shadow-lg border border-black"
                   />
+                  <p className="text-parchment drop-shadow-lg p-2">
+                    {item.paragraph1}
+                  </p>
                 </div>
               ))}
             </>
