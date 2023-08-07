@@ -1,6 +1,7 @@
 "use client";
 import Link from "next/link";
 import Hamburger from "./Hamburger";
+import { AiFillGithub } from "react-icons/ai";
 
 const Header = () => {
   return (
@@ -23,15 +24,17 @@ const Header = () => {
                 className="hidden 2xl:block mx-3 pt-1 hover:text-cerulean"
                 href="/services"
               >
-                Illustrative Mindmaps
+                resume
               </Link>
 
-              <Link
+              <div
                 className="hidden 2xl:block ml-5 px-3 drop-shadow-lg border border-black bg-munsell hover:text-aquamarine mx-2 pt-1"
                 href="/contact"
               >
-                Featured Websites
-              </Link>
+                <a href="/">
+                  <AiFillGithub className="text-2xl text-onyx" />
+                </a>
+              </div>
             </ul>
           </nav>
         </header>
