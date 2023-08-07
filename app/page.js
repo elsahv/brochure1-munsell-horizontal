@@ -1,7 +1,7 @@
 import Hero from "./components/sections/Hero";
 import Services from "./components/sections/ServicesInfo";
-import Gallery from "./components/sections/GalleryInfo";
 import Contact from "./components/sections/ContactInfo";
+import Gallery from "./components/sections/GalleryInfo";
 
 export default function Home() {
   return (

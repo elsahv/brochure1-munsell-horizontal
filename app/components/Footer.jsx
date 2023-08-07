@@ -7,6 +7,8 @@ const Footer = () => {
       <div className="flex p-3">
         <ul className="flex justify-between">
           <span className="font-bold mr-5">Copyright @2023</span>
+          <span className="mr-5">Contact</span>
+          <span className=" mr-5">Newsletter</span>
           <li className="mx-1">
             <a href="/">
               <AiFillGithub className="text-2xl text-onyx" />

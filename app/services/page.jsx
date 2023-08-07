@@ -6,7 +6,7 @@ const Work = () => {
       {/* //todo left side */}
       <section className="left-sq">
         {/* //*step 1 */}
-        <div className="mt-5 px-5">
+        <div className="mt-5 px-5 bg-parchment">
           <h2 className="text-3xl font-bold">Services</h2>
           <p>how it works!</p>
           <h3 className="font-bold mt-5">Initial Consulation---</h3>
@@ -75,7 +75,7 @@ const Work = () => {
         </div>
 
         {/* //*step 4 */}
-        <div className="mt-[50px] px-5">
+        <div className="mt-[50px] px-5 bg-parchment">
           <h3 className="font-bold">Launch to Live!---</h3>
           <p>The most exciting phase! Here, we have our final review and Q&A</p>
           <p>
