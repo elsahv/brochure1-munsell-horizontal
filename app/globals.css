@@ -19,7 +19,7 @@ html{
     display:grid;
     grid-template-columns: 1fr 1fr;
     background: #3AA1AA;
-    height:770px;
+    height:750px;
  }
 
  @media only screen and (max-width: 1024px) {
