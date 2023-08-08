@@ -18,7 +18,7 @@ html{
  .main_grid{
     display:grid;
     grid-template-columns: 1fr 1fr;
-    background: #0792a5;
+    background: #3AA1AA;
     height:770px;
  }
 
@@ -34,7 +34,6 @@ html{
  /* //*LEFT SQ ********/
  .left-sq{
     border-right: solid 2px #35373d;
-    padding: 25px;
     /* height:100vh; */
     /* background: green; */
  }
