@@ -50,19 +50,13 @@ html{
  }
  }
 
-   @media only screen and (max-width: 600px) {
-  .left-sq{
- padding: 10px;
- }
- }
+ 
 
  /* //*END LEFT SQ ********/
 
  /* //*RIGHT SQ ********/
  .right-sq{
     padding: 25px;
-    /* height:100vh; */
-    /* background: maroon; */
     grid-area: b;
  }
 }
@@ -73,6 +67,12 @@ html{
  }
  }
  
+ @media only screen and (max-width: 768px) {
+   .right-sq{
+     height:100%;
+     padding: 5px 15px;
+  }
+  }
 
  /* //*END RIGHT SQ ********/
  

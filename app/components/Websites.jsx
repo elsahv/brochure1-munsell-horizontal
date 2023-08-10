@@ -41,7 +41,7 @@ export const websites = [
 
 const Websites = () => {
   return (
-    <div className="text-lg pl-3 pr-5">
+    <div className="text-lg md:pl-3 pl-0 pr-5">
       {websites.map((item, index) => (
         <div key={index}>
           <Link target="_blank" href={item.url} className="">

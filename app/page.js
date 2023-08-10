@@ -12,7 +12,7 @@ export default function Home() {
 
       {/* //*RIGHT SIDE */}
       <section className="right-sq border-onyx border-l-1">
-        <div className="pl-1 mt-[150px] font-bold text-cerulean text-5xl 2xl:pt-0 lg:pt-[80px]">
+        <div className="pl-1 md:mt-[150px] mt-[50px] font-bold text-cerulean md:text-4xl text-3xl">
           Hi there, {"I'm"} Elsa.
         </div>
         <p className="text-aquamarine mt-1 mb-5 mx-1 text-2xl pt-2 pl-1">

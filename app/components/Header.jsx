@@ -27,10 +27,10 @@ export const MenuItems = [
 
 const Header = () => {
   return (
-    <header className="w-full bg-white flex flex-row justify-center border border-black">
+    <header className="w-full bg-white flex flex-row 2xl:justify-center justify-left border border-black">
       <nav className="2xl:py-5 md:pt-[25px] p-3">
         <div className="flex">
-          <h1 className="pr-4 mr-3 font-bold text-3xl ml-3 pl-4 text-onyx">
+          <h1 className="pr-4 mr-3 font-bold text-3xl md:ml-3 ml-0 lg:pl-4 pl-0 text-onyx">
             Elsa Hovey
           </h1>
           {/* //todo  */}
