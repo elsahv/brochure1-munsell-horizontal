@@ -15,10 +15,10 @@ export const MenuItems = [
     menuItem: <AiFillGithub />,
     url: "https://github.com",
   },
-  {
-    menuItem: <AiOutlineInstagram />,
-    url: "https://instagram.com",
-  },
+  // {
+  //   menuItem: <AiOutlineInstagram />,            // todo: <-- MAKE VISIBLE WHEN READY
+  //   url: "https://instagram.com",
+  // },
   {
     menuItem: <AiFillMail />,
     url: "mailto: elsahvy@gmail.com",

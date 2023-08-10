@@ -29,15 +29,17 @@ export const websites = [
   },
   // {
   //   id: 3,
-  //   title: "Writing to Better Health",
+  //   title: "Writing to Better Health",         // todo: <-- MAKE VISIBLE WHEN READY
   //   url: "https://writingtobetterhealth.com",
   // },
   // {
   //   id: 4.,
-  //   title: "The Running Quail",
+  //   title: "The Running Quail",                // todo: <-- MAKE VISIBLE WHEN READY
   //   url: "https://therunningquail.com",
   // },
 ];
+
+// todo: CREATE POP UP IMAGES FOR EACH WEBSITE
 
 const Websites = () => {
   return (
