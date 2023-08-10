@@ -20,6 +20,8 @@ html{
     grid-template-columns: 1fr 1fr;
     background: #3AA1AA;
     height:750px;
+    grid-template-areas: 
+    'a b';
  }
 
  @media only screen and (max-width: 1024px) {
@@ -27,6 +29,9 @@ html{
     display:grid;
     grid-template-columns: 1fr;
     height:100%;
+    grid-template-areas: 
+    'b'
+    'a';
  }
  }
 
@@ -36,6 +41,7 @@ html{
     border-right: solid 2px #35373d;
     /* height:100vh; */
     /* background: green; */
+    grid-area: a;
  }
 
  @media only screen and (max-width: 1024px) {
@@ -57,6 +63,7 @@ html{
     padding: 25px;
     /* height:100vh; */
     /* background: maroon; */
+    grid-area: b;
  }
 }
 
@@ -69,64 +76,7 @@ html{
 
  /* //*END RIGHT SQ ********/
  
-
-
-/* //*HEADER */
- 
-
-.nav-menu {
-  background: #0792a5;
-  color: #35373d;
-  border: solid 2px #000;
-  width:50%;
-  height: 25vh;
-  position: fixed;
-  top: 0;
-  right: 100%;
-  transition: 1s;
-
-}
-
-.nav-menu.active {
-  left: 0;
-  transition: 1s;
-  position: absolute;
-  z-index: 100;
-}
-
-/* //*end HEADER */
-
-
-
-
-/* //*CONTACT FORM */
-#form-label {
-   padding:  2px;
-   margin-top: 20px;
- }
- 
- /* //*FORM INPUT STYLES */
- .form-input {
-   border: 2px solid #007ba5;
-   width: 100%;
-   border-radius: 5px;
-   padding: 5px 1px 5px 5px;
- }
  
  
  
- ._textShadow{
-  text-shadow: 1px 1px 1px #007ba5;
- }
  
- #message {
-   height: 150px;
- }
- 
- .error-msg {
-   color: coral;
- }
- 
- /* //*end FORM INPUT STYLES */
-
-

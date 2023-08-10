@@ -48,7 +48,9 @@ const Websites = () => {
             <div className="p-1 mt-3 hover:text-onyx">
               <div className="flex items-center">
                 {item.icon} |
-                <h2 className="font-bold text-lg pl-1">{item.title}</h2>
+                <h2 className="hover:underline font-bold text-lg">
+                  {item.title}
+                </h2>
               </div>
               <p className="text-onyx pl-1">{item.description}</p>
             </div>
