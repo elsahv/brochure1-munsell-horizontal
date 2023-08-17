@@ -1,4 +1,5 @@
 "use client";
+import Link from "next/link";
 import { AiFillGithub } from "react-icons/ai";
 
 const Footer = () => {
@@ -11,9 +12,12 @@ const Footer = () => {
             className="pl-1 hover:text-cerulean"
             href="mailto: elsahvy@gmail.com"
           >
-            elsahvy@gmail.com
+            contact- elsahvy@gmail.com
           </a>
         </span>
+        <Link className="underline" href="/about">
+          About
+        </Link>
       </div>
     </footer>
   );

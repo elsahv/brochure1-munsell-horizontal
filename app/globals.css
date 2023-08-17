@@ -38,7 +38,7 @@ html{
 
  /* //*LEFT SQ ********/
  .left-sq{
-    border-right: solid 2px #35373d;
+    /* border-right: solid 2px #35373d; */
     /* height:100vh; */
     /* background: green; */
     grid-area: a;
