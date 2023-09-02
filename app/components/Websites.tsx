@@ -2,48 +2,51 @@ import Link from "next/link";
 import { FaBattleNet } from "react-icons/fa";
 import { MdRoofing } from "react-icons/md";
 import { RiPlantFill } from "react-icons/ri";
+import { CgGym } from "react-icons/cg";
+import { FiArrowRight } from "react-icons/fi";
+
+
 
 export const websites = [
   {
-    id: 0,
+    id: 1,
     title: "Laughing Coyote Dev ",
     description:
       "Currently a freelancing landing page, revolving around web design service for small businesses and creatives.",
     url: "https://laughingcoyote.dev",
-    icon: <FaBattleNet />,
+    icon: <FiArrowRight />,
   },
+  // {
+  //   id: 2,
+  //   title: "The Indoor Jungle Project",
+  //   description:
+  //     "A future houseplant planner and tracker",
+  //   url: "https://theindoorjungleproject.com",
+  //   icon: <FiArrowRight />,
+  // },
   {
-    id: 1,
-    title: "The Indoor Jungle Project",
+    id: 3,
+    title: "Writing to Better Health",   
     description:
-      "A future blog about working from home, and finding creativity through houseplant projects.",
-    url: "https://theindoorjungleproject.com",
-    icon: <RiPlantFill />,
+    "A future blog about nutrition and mental wellness.",
+    url: "https://writingtobetterhealth.com",
+    icon: <FiArrowRight />,
   },
   {
-    id: 2,
-    title: "HoveyRoofing",
-    description: "A website for small business, HoveyRoofing from Redlands, CA",
-    url: "https://hoveyroofing.com",
-    icon: <MdRoofing />,
+    id: 4,
+    title: "The Running Quail",   
+    description:
+      "A future Morongo Basin Community, CA.",            
+    url: "https://therunningquail.com",
+    icon: <FiArrowRight />,
   },
-  // {
-  //   id: 3,
-  //   title: "Writing to Better Health",         // todo: <-- MAKE VISIBLE WHEN READY
-  //   url: "https://writingtobetterhealth.com",
-  // },
-  // {
-  //   id: 4.,
-  //   title: "The Running Quail",                // todo: <-- MAKE VISIBLE WHEN READY
-  //   url: "https://therunningquail.com",
-  // },
 ];
 
 // todo: CREATE POP UP IMAGES FOR EACH WEBSITE
 
 const Websites = () => {
   return (
-    <div className="text-lg md:pl-3 pl-0 pr-5">
+    <div className="text-lg md:pl-3 pl-0 pr-5 grid md:grid-cols-1 grid-cols-1 gap-1 mt-[50px]">
       {websites.map((item, index) => (
         <div key={index}>
           <Link target="_blank" href={item.url} className="">

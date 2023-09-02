@@ -1,15 +1,18 @@
 TODOS:
+-WTBH: FIX SANITY CONTENT
 
-- view website inspirations
-- update to typescript
-- resume
+-LC: FIX DESIGNS/CLIENTS LINK
 
-MINDMAPS:
-Header: Logo, sm, contact
-footer: copyright
+-JUNGLE: FIGURE OUT IF WANT TO KEEP LAYOUT
 
-- FRONT PAGE: about, contact, websites CTA
+-RQ: UTILIZE THREADS TUT
+
+-EH: What if I did journal entries, mindmaps for each website???
+
+---
+
+-1.resume
+-2. make all sites presentable
+
+- FRONT PAGE: about, contact, portfolio, websites CTA
 - MINDMAPS PAGE: blog, notes
-
-- PORTFOLIO PAGE: blog, notes
-  -> DROPDOWN MENU: pg for each project
