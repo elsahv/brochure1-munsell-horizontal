@@ -1,13 +1,16 @@
 TODOS:
--WTBH: FIX SANITY CONTENT
 
--LC: FIX DESIGNS/CLIENTS LINK
+- WTBH:
+  1)FIX SANITY CONTENT
+  2)CONVERT TO TYPESCRIPT
 
--JUNGLE: FIGURE OUT IF WANT TO KEEP LAYOUT
+- LC:
 
--RQ: UTILIZE THREADS TUT
+- JUNGLE: FIGURE OUT IF WANT TO KEEP LAYOUT
 
--EH: What if I did journal entries, mindmaps for each website???
+- RQ: UTILIZE THREADS TUT
+
+- EH: What if I did journal entries, mindmaps for each website???
 
 ---
 

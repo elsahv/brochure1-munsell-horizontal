@@ -1,7 +1,6 @@
 import Image from "next/image";
 import JtLogo from "../public/jt-munsell.png";
 import Websites from "./components/Websites";
-import Link from "next/link";
 
 export default function Home() {
   return (
@@ -19,11 +18,6 @@ export default function Home() {
         <p className="text-aquamarine mt-1 mb-5 mx-1 text-2xl pt-2 pl-1">
           {"I'm"} a web developer based in Joshua Tree, CA. Listed below are
           some websites {"I've"} created:{" "}
-          {/*about me: Lorem, ipsum dolor sit amet
-          consectetur adipisicing elit. Vero aperiam quam, consequuntur unde
-          doloribus earum eius ratione ab non, laboriosam possimus dolore, quo
-          perspiciatis. Quae modi in quos iste nihil. */}
-          {/* I create niche websites and solutions for small business owners and creatives. */}
         </p>
         <Websites />
       </section>
