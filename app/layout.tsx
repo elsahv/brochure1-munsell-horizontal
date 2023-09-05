@@ -14,10 +14,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="">
+      <body className="w-[100%]">
         <Header />
-        <main className="">{children}</main>
-        <Footer />
+        <main className="bg-moonstone">{children}</main>
+        {/* <Footer /> */}
       </body>
     </html>
   );

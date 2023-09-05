@@ -34,7 +34,7 @@
     "**/*.ts",
     "**/*.tsx",
     ".next/types/**/*.ts"
-  ],
+, "app/mindmaps/LeftSide"  ],
   "exclude": [
     "node_modules"
   ]

@@ -12,6 +12,7 @@ module.exports = {
         inter: ["Inter", "serif"],
       },
       colors: {
+        moonstone: "#3AA1AA",
         munsell: "#0792a5",
         cerulean: "#007ba5",
         aquamarine: "#7FFFD4",
