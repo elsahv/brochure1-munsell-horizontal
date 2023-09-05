@@ -17,25 +17,33 @@ export const websites = [
   },
   // {
   //   id: 2,
-  //   title: "The Indoor Jungle Project",
+  //   title: "The Indoor Jungle Project",   //todo make visible when ready
   //   description:
-  //     "A future houseplant planner and tracker",
+  //     "A future houseplant planner and tracker",  
   //   url: "https://theindoorjungleproject.com",
   //   icon: <FiArrowRight />,
   // },
-  {
-    id: 3,
-    title: "Writing to Better Health",   
-    description:
-    "A future blog about nutrition and mental wellness.",
-    url: "https://writingtobetterhealth.com",
-    icon: <FiArrowRight />,
-  },
+  // {
+  //   id: 3,
+  //   title: "Writing to Better Health",     //todo make visible when ready
+  //   description:
+  //   "A future blog about nutrition and mental wellness.",
+  //   url: "https://writingtobetterhealth.com",
+  //   icon: <FiArrowRight />,
+  // },
   {
     id: 4,
     title: "The Running Quail",   
     description:
-      "A future Morongo Basin Community, CA.",            
+      "A future community for locals and tourists in Morongo Basin, CA. ",            
+    url: "https://therunningquail.com",
+    icon: <FiArrowRight />,
+  },
+  {
+    id: 5,
+    title: "Hovey Roofing",   
+    description:
+      "Small brochure website for small business HoveyRoofing, Redlands CA",            
     url: "https://therunningquail.com",
     icon: <FiArrowRight />,
   },
