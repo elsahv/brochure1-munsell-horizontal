@@ -1,10 +1,9 @@
 import Image from "next/image";
 import JtLogo from "../public/jt-munsell.png";
 import Websites from "./components/Websites";
+import Link from "next/link";
 
-export const Inrto = [
-
-]
+ 
 
 
 export default function Home() {
@@ -22,8 +21,12 @@ export default function Home() {
         </div>
         <div className="text-aquamarine text-lg p-3 flex flex-col gap-5">
         <p>{"I'm"} a web developer based in Joshua Tree, CA. Over the last decade, {"I've"} hoarded and thought of many different and creative ideas.
-        Since 2019, I have decided to learn how to bring these ideas to life through javascript progamming and frameworks.</p>
-        <p>Listed below are some of my more complete designs... You can view my coding progress through github.</p>
+        Since 2019, {"I've"} decided to learn how to bring these ideas to life through javascript progamming and frameworks.</p>
+        <p>Listed below are some of my more complete designs... You can view my coding progress through my
+           <Link href="https://github.com/elsahv" className="ml-1">
+           github.
+           </Link>
+           </p>
         </div>
 
         <Websites />

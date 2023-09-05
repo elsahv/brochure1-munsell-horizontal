@@ -12,8 +12,8 @@ const Header = () => {
               Elsa Hovey
             </h1>
           <div className="flex items-center pr-5">
-            <Link href="/" className="pt-1 pr-5 pl-3">Portfolio</Link>
-            <Link href="/mindmaps" className="pt-1 pr-5 pl-3">Creative Projects</Link>
+            {/* <Link href="/" className="pt-1 pr-5 pl-3">Portfolio</Link> //todo: make visible when ready!! */} 
+            {/* <Link href="/mindmaps" className="pt-1 pr-5 pl-3">Creative Projects</Link>  //todo: make visible when ready!! */} 
             {menuItems.map((item, index) => (
               <div key={index}>
                 <div className="cursor-pointer text-2xl border border-black bg-munsell hover:text-aquamarine mx-1 px-2 py-1">
