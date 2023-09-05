@@ -23,7 +23,7 @@ export default function Home() {
         <p>{"I'm"} a web developer based in Joshua Tree, CA. Over the last decade, {"I've"} hoarded and thought of many different and creative ideas.
         Since 2019, {"I've"} decided to learn how to bring these ideas to life through javascript progamming and frameworks.</p>
         <p>Listed below are some of my featured websites... You can view my coding progress through my
-           <Link href="https://github.com/elsahv" className="ml-1">
+           <Link href="https://github.com/elsahv" className="ml-1 hover:text-onyx hover:underline"> 
            github.
            </Link>
            </p>
