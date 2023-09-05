@@ -60,11 +60,11 @@ export const mindMaps = [
 const Mindmaps = () => {
   return (
         <div id="" className="">
-        {/* {mindMaps.map((mindMap) => (
+        {mindMaps.map((mindMap) => (
             <div key={mindMap.title}>
               <h2>{mindMap.title}</h2>
             </div>
-          ))} */}
+          ))}
           <div className="bg-aquamarine w-3/5 mr-[70px] mt-[100px] overflow-y-scroll absolute right-0 top-0">
           <div className="mb-5">
             <h2 className="font-bold">Illustrative mindmaps use aquamarine and cerulean for grid!!</h2>
