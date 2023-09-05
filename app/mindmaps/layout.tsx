@@ -1,5 +1,6 @@
 import Leftbar from "../components/Leftbar"
-import TestHeader from "../components/TestHeader"
+import Header from "../components/Header"
+// import Footer from "../components/Footer"
 
 export default function MindmapLayout({
     children, // will be a page or nested layout
@@ -9,11 +10,12 @@ export default function MindmapLayout({
     return (
       <section>
         {/* Include shared UI here e.g. a header or sidebar */}
-        <TestHeader />
+        <Header />
           <Leftbar /> 
          <div className="bg-white">   
         {children}
         </div>
+        {/* <Footer /> */}
       </section>
     )
   }

@@ -2,6 +2,11 @@ import Image from "next/image";
 import JtLogo from "../public/jt-munsell.png";
 import Websites from "./components/Websites";
 
+export const Inrto = [
+
+]
+
+
 export default function Home() {
   return (
     <div className="main_grid">
@@ -15,10 +20,12 @@ export default function Home() {
         <div className="pl-1 md:mt-[150px] mt-[50px] font-bold text-cerulean text-4xl">
           Hi there, {"I'm"} Elsa.
         </div>
-        <p className="text-aquamarine mt-1 mb-5 mx-1 text-2xl pt-2 pl-1">
-          {"I'm"} a web developer based in Joshua Tree, CA. Listed below are
-          some websites {"I've"} created:{" "}
-        </p>
+        <div className="text-aquamarine text-lg p-3 flex flex-col gap-5">
+        <p>{"I'm"} a web developer based in Joshua Tree, CA. Over the last decade, {"I've"} hoarded and thought of many different and creative ideas.
+        Since 2019, I have decided to learn how to bring these ideas to life through javascript progamming and frameworks.</p>
+        <p>Listed below are some of my more complete designs... You can view my coding progress through github.</p>
+        </div>
+
         <Websites />
       </section>
     </div>

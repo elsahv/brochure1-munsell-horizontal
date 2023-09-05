@@ -17,7 +17,7 @@ export default function RootLayout({
       <body className="w-[100%]">
         <Header />
         <main className="bg-moonstone">{children}</main>
-        {/* <Footer /> */}
+        <Footer />
       </body>
     </html>
   );

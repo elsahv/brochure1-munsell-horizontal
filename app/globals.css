@@ -19,7 +19,7 @@ html{
     display:grid;
     grid-template-columns: 1fr 1fr;
     background: #3AA1AA;
-    height:750px;
+    height:800px;
     grid-template-areas: 
     'a b';
  }
