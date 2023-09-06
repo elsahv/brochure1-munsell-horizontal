@@ -22,7 +22,7 @@ export default function Home() {
         <div className="text-aquamarine text-lg p-3 flex flex-col gap-5">
         <p>{"I'm"} a web developer based in Joshua Tree, CA. Over the last decade, {"I've"} hoarded and thought of many different and creative ideas.
         Since 2019, {"I've"} decided to learn how to bring these ideas to life through javascript progamming and frameworks.</p>
-        <p>Listed below are some of my featured websites... You can view my coding progress through my
+        <p>Listed below are some of my featured websites, all builds are currently in progress... You can view my coding progress through
            <Link href="https://github.com/elsahv" className="ml-1 hover:text-onyx underline"> 
            github.
            </Link>
