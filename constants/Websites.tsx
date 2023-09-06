@@ -44,7 +44,7 @@ export const websites = [
     title: "Hovey Roofing",   
     description:
       "Small brochure website for small business HoveyRoofing-located in Redlands CA",            
-    url: "https://therunningquail.com",
+    url: "https://hoveyroofing.com",
     icon: <FiArrowRight />,
   },
 ];
