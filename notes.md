@@ -14,3 +14,9 @@ TODOS:
 
 -1.resume
 -2. make all sites presentable
+
+portfolio to mindmaps
+
+-pg1- about
+
+- pg-2 portfolio---- websites
